@@ -1,14 +1,16 @@
 # MMM-PushBullet Configurable Notification Mirroring
 Displays and alerts mirror users on new phone notifications which are configurable.
-This module is heavily based on ![phone-notification-mirror](https://github.com/ronny3050/phone-notification-mirror) by ![ronny3050](https://github.com/ronny3050).
+This module is heavily based on [phone-notification-mirror](https://github.com/ronny3050/phone-notification-mirror) by [ronny3050](https://github.com/ronny3050).
 
-![Phone Visualization](https://github.com/ronny3050/phone-notification-mirror/blob/master/.github/full_preview.png)
+Notifications can be split into two parts, SMS and app notifications. In a country like INDIA, we get a lot of SMS rather than app notifications. Hence the division.
+Number of entries in both types are configurable.
+
 
 ## Getting Started
 Firstly, a [Pushbullet](https://www.pushbullet.com/) app is required on the phone. After downloading and installing the application on your phone, get a Pushbullet Access Token from your Account Settings.
 
 ## Installing the module
-[WS - WebSocket](https://www.npmjs.com/package/ws)
+[ws - WebSocket](https://www.npmjs.com/package/ws)
 To install the module, just clone this repository to your __modules__ folder: `git clone https://github.com/prasanthsasikumar/MMM-PushBullet.git`.
 Then run `cd MMM-PushBullet` and `npm install` which will install the dependencies.
 
@@ -114,3 +116,6 @@ The following properties can be configured:
 
 	</tbody>
 </table>
+
+## For Developers
+Though I've tried my best, code seems not very structured. Good luck! :D
